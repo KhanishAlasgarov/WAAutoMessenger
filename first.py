@@ -6,6 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
+# There must be a Chrome driver on the computer and the version of the Chrome driver must be the same as Chrome
+
 options = webdriver.ChromeOptions()
 options.binary_location = 'C:/Users/alesk/Desktop/chromedriver-win64/chromedriver.exe'
 
